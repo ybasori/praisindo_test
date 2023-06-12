@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ArticleList Snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="loading"
+    >
+      <i
+        class="fas fa-circle-notch fa-spin"
+      />
+    </div>
+  </div>
+</div>
+`;

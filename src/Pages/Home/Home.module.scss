@@ -1,0 +1,24 @@
+.container {
+  max-width: 496px;
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.to-top-btn {
+  border-radius: 50%;
+  border: 1px solid #000;
+  height: 64px;
+  width: 64px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  cursor: pointer;
+}
