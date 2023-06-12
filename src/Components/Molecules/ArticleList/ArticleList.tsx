@@ -36,6 +36,7 @@ const ArticleList = () => {
               {nyTimesState.articles.map((item, index) => (
                 <div key={index} className={styles["article"]}>
                   <ArticleItem
+                    url={item.web_url}
                     title={item.abstract}
                     author={item.byline.original}
                     publishDate={item.pub_date}

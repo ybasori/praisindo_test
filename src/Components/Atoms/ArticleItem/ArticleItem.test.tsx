@@ -5,6 +5,7 @@ describe("Test ArticleItem", () => {
   it("Snapshot", () => {
     const { container } = render(
       <ArticleItem
+        url={"https://"}
         title={"Title"}
         author={"By Author"}
         publishDate={"2023-06-12T09:01:05+0000"}
